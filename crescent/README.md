@@ -25,9 +25,18 @@ The following items will be included in the proposal:
 
 ## Chain Data
 
-### Binary
+### Get a binary
 
-The binary published in this repo is the `crescentd` binary built using the this repo branch [v3.0.0-rc5-ibcv3-ics](https://github.com/nodebreaker0-0/crescent/tree/v3.0.0-rc5-ibcv3-ics). You can generate the binary following below commands.
+The binary published in this repo is the `crescentd` binary built using the this repo branch [v3.0.0-rc5-ibcv3-ics](https://github.com/nodebreaker0-0/crescent/tree/v3.0.0-rc5-ibcv3-ics). 
+
+You can download the binary following below commands.
+
+```bash
+wget https://github.com/b-harvest/game-of-chains/raw/main/crescent/crescentd
+chmod +x crescentd
+```
+
+You can generate the binary following below commands.
 
 ```bash
 git clone https://github.com/nodebreaker0-0/crescent

@@ -10,7 +10,7 @@ NODE_MONIKER="<YOUR MONIKER>"
 SERVICE_NAME=crescent
 # ***
 
-CHAIN_BINARY_URL='https://github.com/b-harvest/game-of-chains/raw/main/crescentd'
+CHAIN_BINARY_URL='https://github.com/b-harvest/game-of-chains/raw/main/crescent/crescentd'
 CHAIN_BINARY='crescentd'
 CHAIN_ID=goc-crescent
 PERSISTENT_PEERS="595923e093cbe11dea4f816b48e87691a614a964@34.82.58.71:26656,595923e093cbe11dea4f816b48e87691a614a964@34.145.117.181:26656"
