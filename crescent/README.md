@@ -88,9 +88,6 @@ The genesis file with was generated using the following settings:
 On the node machine:
 - Copy the `node_key.json` and `priv_validator_key.json` files for your validator.
   - **These should be the same ones as the ones from your provider node**.
-  ```bash
-    PROVIDER_HOME=<y/provider
-  ```
 - Run one of the following scripts:
   - crescent service: [crescent-init.sh](crescent-init.sh)
   - Cosmovisor service: [crescent-init-cv.sh](crescent-init-cv.sh)
