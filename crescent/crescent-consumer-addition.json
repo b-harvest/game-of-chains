@@ -1,6 +1,6 @@
 {
-    "title": "Let's CREATE the Crescent chain",
-    "description": "# Create the Crescent consumer chain\n\nThis is the proposal to create the **Crescent** consumer chain, network id: **goc-crescent**.\n\nVisit [our git repo, here](https://github.com/b-harvest/game-of-chains/crescent) for details on this proposal's data and how to join the chain.\n\n",
+    "title": "Create the Crescent chain",
+    "description": "# Create the Crescent consumer chain\n\nThis is the proposal to create the **Crescent** consumer chain, chain-id: **goc-crescent**.\n\nVisit [our git repo, here](https://github.com/b-harvest/game-of-chains/tree/main/crescent) for details on this proposal's data and how to join the chain.\n\n",
     "chain_id": "goc-crescent",
     "initial_height": {
         "revision_number": 0,

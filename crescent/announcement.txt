@@ -1,21 +1,26 @@
 Hello fellow validators!!  
 
-B-Harvest has created `proposal-XX` for a new community consumer chain, Crescent: `goc-crescent`.
+B-Harvest has created `Proposal 27` for a new community consumer chain, Crescent: `goc-crescent`.
 The voting is live for Crescent chain, and it is scheduled to start on 1 December 2022!
 
 Kindly help us to launch Crescent by voting:
-- https://testnet.mintscan.io/goc-provider/proposals/XX
-- https://testnet.keplr.app/chains/goc---provider/proposals/XX
+- https://testnet.mintscan.io/goc-provider/proposals/27
+- https://testnet.keplr.app/chains/goc---provider/proposals/27
+
+One more favor, please vote "No" for Proposal 26, I wrote wrong url for our git repo.
+- https://testnet.keplr.app/chains/goc---provider/proposals/26
 
 Timeline
 2022-12-01: Spawn time: 2022-12-01T15:00:00.000000Z (Your local time: <t:1669906800:F>)
-2022-11-30: Proposal XX voting period ends (Your local time: <t:1669906800:F>)
-2022-11-28: Proposal XX goes into the voting period
+2022-11-30: Proposal 27 voting period ends (Your local time: <t:1669824102:F>)
+2022-11-28: Proposal 27 goes into the voting period
 2022-11-28: Genesis file without CCV state is generated
-
-Thanks to @danb | Strangelove for the guide materials!
 
 You can find more information about the Crescent chain below:
 - https://github.com/b-harvest/game-of-chains/tree/main/crescent
 - https://github.com/nodebreaker0-0/crescent/tree/v3.0.0-rc5-ibcv3-ics
 
+@danb#2254
+Thank you very much for the guide materials!
+
+Thank you!!
