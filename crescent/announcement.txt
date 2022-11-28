@@ -1,0 +1,14 @@
+Hello fellow validators!!  
+
+B-Harvest has created `proposal-XX` for a new community consumer chain, Crescent: `goc-crescent`.
+The voting is live for Crescent chain, and it is scheduled to start on 1 December 2022!
+
+Kindly help us by voting https://testnet.keplr.app/chains/goc---provider/proposals/XX
+
+Timeline
+2022-12-01: Spawn time: 2022-12-01T15:00:00.000000Z (Your local time: <t:1669906800:F>)
+2022-11-30: Proposal 23 voting period ends (Your local time: <t:1669906800:F>)
+2022-11-28: Proposal 23 goes into the voting period
+2022-11-28: Genesis file without CCV state is generated
+
+Thanks to @danb | Strangelove for the guide materials!

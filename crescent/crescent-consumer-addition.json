@@ -1,0 +1,13 @@
+{
+    "title": "Let's CREATE the Crescent chain",
+    "description": "# Create the Crescent consumer chain\n\nThis is the proposal to create the **Crescent** consumer chain, network id: **goc-crescent**.\n\nVisit [our git repo, here](https://github.com/b-harvest/game-of-chains/crescent) for details on this proposal's data and how to join the chain.\n\n",
+    "chain_id": "goc-crescent",
+    "initial_height": {
+        "revision_number": 0,
+        "revision_height": 1
+    },
+    "genesis_hash": "bd4157d88f6370f04f8c3c0c675f529f4219a97e6a285339a61b4a9a69c8f6e2",
+    "binary_hash": "4a49b56372cec22f569d3a41c3072cc82e4d7bfba2015275c6133b295d754de8",
+    "spawn_time": "2022-12-01T15:00:00.000000Z",
+    "deposit": "1uprov"
+}

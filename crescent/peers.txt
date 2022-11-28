@@ -1,0 +1,5 @@
+#Peers for the crescent consumer chain
+
+#B-Harvest
+e2f18d98b2c37931d4a90d3c13dbae2a72f27adc@51.195.63.75:11356
+ef2bbb78fea65e6ba021041c9fb0fe7fe625c5f9@51.195.88.107:11356
