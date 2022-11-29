@@ -64,8 +64,8 @@ export BINARY=$NODE_HOME/cosmovisor/genesis/bin/$CHAIN_BINARY
 export GO111MODULE=on
 go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
 
-sudo rm /etc/systemd/system/cv-$NODE_MONIKER.service
-sudo touch /etc/systemd/system/cv-$NODE_MONIKER.service
+sudo rm /etc/systemd/system/cv-$SERVICE_NAME.service
+sudo touch /etc/systemd/system/cv-$SERVICE_NAME.service
 
 echo "[Unit]"                               | sudo tee /etc/systemd/system/cv-$SERVICE_NAME.service
 echo "Description=Cosmovisor service"       | sudo tee /etc/systemd/system/cv-$SERVICE_NAME.service -a
