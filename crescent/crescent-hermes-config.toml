@@ -1,0 +1,73 @@
+[[chains]]
+id = 'goc-crescent'
+rpc_addr = '{YOUR_RPC_ADDR}'
+grpc_addr = '{YOUR_GRPC_ADDR}'
+websocket_addr = 'ws:{YOUR_RPC_WS_ADDR}'
+rpc_timeout = '10s'
+account_prefix = 'cosmos'
+key_name = 'crescent'
+address_type = { derivation = 'cosmos' }
+store_prefix = 'ibc'
+default_gas = 3000000
+max_gas = 15000000
+gas_price = { price = 0.0025, denom = 'ucre' }
+gas_multiplier = 1.2
+max_msg_num = 20
+max_tx_size = 2097152
+clock_drift = '15s'
+max_block_time = '10s'
+trusting_period = '48h'
+memo_prefix = 'B-Harvest'
+trust_threshold = { numerator = '1', denominator = '3' }
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['consumer', 'channel-0'], # provider CCV channel
+  ['transfer', 'channel-1'], # provider TOKEN channel
+]
+
+#----------------------------------------------------------
+
+[[chains]]
+id = 'provider'
+rpc_addr = '{YOUR_RPC_ADDR}'
+grpc_addr = '{YOUR_GRPC_ADDR}'
+websocket_addr = 'ws:{YOUR_RPC_WS_ADDR}'
+rpc_timeout = '10s'
+account_prefix = 'cosmos'
+key_name = 'gaia'
+address_type = { derivation = 'cosmos' }
+store_prefix = 'ibc'
+default_gas = 3000000
+max_gas = 15000000
+gas_price = { price = 0.0025, denom = 'uprov' }
+gas_multiplier = 1.2
+max_msg_num = 20
+max_tx_size = 2097152
+clock_drift = '15s'
+max_block_time = '10s'
+trusting_period = '48h'
+memo_prefix = 'B-Harvest'
+trust_threshold = { numerator = '1', denominator = '3' }
+
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['provider', 'channel-0'], # sputnik CCV channel
+  ['transfer', 'channel-1'], # sputnik TOKEN channel
+  #['provider', 'channel-2'], # apollo CCV channel
+  #['transfer', 'channel-3'], # apollo TOKEN channel
+  ['provider', 'channel-8'], # hero CCV channel
+  ['transfer', 'channel-9'], # hero TOKEN channel
+  ['provider', 'channel-10'], # neutron CCV channel
+  ['transfer', 'channel-11'], # neutron TOKEN channel
+  ['provider', 'channel-12'], # gopher CCV channel
+  ['transfer', 'channel-13'], # gopher TOKEN channel
+  #['provider', 'channel-14'], # strange CCV channel
+  #['transfer', 'channel-15'], # strange TOKEN channel
+  ['provider', 'channel-16'], # duality CCV channel
+  ['transfer', 'channel-17'], # duality TOKEN channel
+  ['transfer', 'channel-18'], # duality TOKEN channel
+  ['transfer', 'channel-XXXX'], # crescent TOKEN channel
+  ['transfer', 'channel-XXXX'], # crescent TOKEN channel
+]
