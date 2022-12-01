@@ -78,7 +78,7 @@ The genesis file with was generated using the following settings:
 
 ## Endpoints
 
-* **p2p persistent peers : `e2f18d98b2c37931d4a90d3c13dbae2a72f27adc@51.195.63.75:11356,ef2bbb78fea65e6ba021041c9fb0fe7fe625c5f9@51.195.88.107:11356`**
+* **p2p persistent peers : `e2f18d98b2c37931d4a90d3c13dbae2a72f27adc@51.195.63.75:11356,f37b78d227d6d06f416a6667f979f4a8bdef78e3@51.195.88.107:11356`**
 * These peers represent the `B-Harvest` validator. We are accepting `100` inbound peeers, but please consider sharing your peers in discord, or create a PR to [`peers.txt`](peers.txt)
 
 * Please keep in mind that any validator that does not come online after 67% of the voting power is up and running, is likely to be slashed for downtime, potentially resulting in being jailed (the `signed_blocks_window` parameter is set to `8640`).
