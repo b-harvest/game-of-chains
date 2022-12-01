@@ -137,6 +137,10 @@ mv crescent-ccv-genesis.json genesis.json
 ```
 
 ### Faucet : goc-crescent
+```
+- Balance
 http://51.195.88.107:8000/balance?address={CRESCENT_ADDRESS}&chain=goc-crescent
-http://51.195.88.107:8000/request?address={CRESCENT_ADDRESS}&chain=goc-crescent
 
+- Request
+http://51.195.88.107:8000/request?address={CRESCENT_ADDRESS}&chain=goc-crescent
+```
