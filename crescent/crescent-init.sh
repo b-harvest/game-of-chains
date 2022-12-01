@@ -13,7 +13,7 @@ SERVICE_NAME=crescent
 CHAIN_BINARY_URL='https://github.com/b-harvest/game-of-chains/raw/main/crescent/crescentd'
 CHAIN_BINARY='crescentd'
 CHAIN_ID=goc-crescent
-PERSISTENT_PEERS="595923e093cbe11dea4f816b48e87691a614a964@34.82.58.71:26656,595923e093cbe11dea4f816b48e87691a614a964@34.145.117.181:26656"
+PERSISTENT_PEERS="e2f18d98b2c37931d4a90d3c13dbae2a72f27adc@51.195.63.75:11356,ef2bbb78fea65e6ba021041c9fb0fe7fe625c5f9@51.195.88.107:11356"
 
 # Install go 1.19.2
 echo "Installing go..."
