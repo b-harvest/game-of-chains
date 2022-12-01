@@ -136,4 +136,7 @@ wget https://raw.githubusercontent.com/b-harvest/game-of-chains/main/crescent/cr
 mv crescent-ccv-genesis.json genesis.json
 ```
 
+### Faucet : goc-crescent
+http://51.195.88.107:8000/balance?address={CRESCENT_ADDRESS}&chain=goc-crescent
+http://51.195.88.107:8000/request?address={CRESCENT_ADDRESS}&chain=goc-crescent
 
