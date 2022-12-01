@@ -78,6 +78,8 @@ The genesis file with was generated using the following settings:
 
 ## Endpoints
 
+* **seeds : `dd64f68070847a00413ecbe2dc0ed01e584ace57@goc-seeds.lavenderfive.com:35656` **
+
 * **p2p persistent peers : `e2f18d98b2c37931d4a90d3c13dbae2a72f27adc@51.195.63.75:11356,f37b78d227d6d06f416a6667f979f4a8bdef78e3@51.195.88.107:11356`**
 * These peers represent the `B-Harvest` validator. We are accepting `100` inbound peeers, but please consider sharing your peers in discord, or create a PR to [`peers.txt`](peers.txt)
 

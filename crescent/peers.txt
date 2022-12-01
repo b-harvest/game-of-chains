@@ -1,5 +1,10 @@
-#Peers for the crescent consumer chain
+# Peers for the crescent consumer chain
 
-#B-Harvest
+## B-Harvest
 e2f18d98b2c37931d4a90d3c13dbae2a72f27adc@51.195.63.75:11356
 f37b78d227d6d06f416a6667f979f4a8bdef78e3@51.195.88.107:11356
+
+# Seeds
+
+## LavenderFive
+dd64f68070847a00413ecbe2dc0ed01e584ace57@goc-seeds.lavenderfive.com:35656
